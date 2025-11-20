@@ -150,12 +150,51 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="relative bg-white px-4">
-          <img 
-            src="/img/main1.webp" 
-            alt="Description" 
-            className="mx-auto max-w-full h-auto"
-          />
+      <section className="relative bg-white px-4 py-24">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-4 gap-4">
+            <div className="text-center">
+              <img 
+                src="/img/estimate.png" 
+                alt="Image 1" 
+                className="w-16 h-auto mx-auto md:w-24 lg:w-32"
+              />
+              <Typography variant="small" color="blue-gray" className="mt-2 md:mt-3 text-xs md:text-sm lg:text-base font-medium">
+                견적내기
+              </Typography>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/img/counsel.png" 
+                alt="Image 2" 
+                className="w-16 h-auto mx-auto md:w-24 lg:w-32"
+              />
+              <Typography variant="small" color="blue-gray" className="mt-2 md:mt-3 text-xs md:text-sm lg:text-base font-medium">
+                구매상담
+              </Typography>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/img/management.png" 
+                alt="Image 3" 
+                className="w-16 h-auto mx-auto md:w-24 lg:w-32"
+              />
+              <Typography variant="small" color="blue-gray" className="mt-2 md:mt-3 text-xs md:text-sm lg:text-base font-medium">
+                차량관리
+              </Typography>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/img/record.png" 
+                alt="Image 4" 
+                className="w-16 h-auto mx-auto md:w-24 lg:w-32"
+              />
+              <Typography variant="small" color="blue-gray" className="mt-2 md:mt-3 text-xs md:text-sm lg:text-base font-medium">
+                운행일지
+              </Typography>
+            </div>
+          </div>
+        </div>
       </section>
       {/* <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
@@ -185,7 +224,7 @@ export function Home() {
           </div>
         </div>
       </section> */}
-      <section className="relative bg-white py-24 px-4">
+      <section className="relative bg-white py-22 px-4">
         <div className="container mx-auto">
           <PageTitle section="" heading="전기차 보조금 조회 및 비교">
             경기도 성남시 기준으로 전기차 모델별 보조금 조회 및 비교<br/>
@@ -274,12 +313,70 @@ export function Home() {
           </form> */}
         </div>
       </section>
-      <section className="relative bg-white px-4">
-          <img 
-            src="/img/main2.webp" 
-            alt="Description" 
-            className="mx-auto max-w-full h-auto"
-          />
+      <section className="relative bg-white px-4 py-14">
+        <div className="container mx-auto text-center">
+          <Typography
+            variant="h3"
+            color="blue-gray"
+            className="mb-24 font-bold"
+          >
+            EON과<br/>
+            함께하는 파트너를 소개합니다.<br/>
+            <small className="mb-8 font-normal">더 나은 전기차 경험을 위해 다양한 사업자와 함께 성장하고 있습니다.</small>
+          </Typography>
+          
+          <div className="grid grid-cols-7 gap-4 mt-8 items-center">
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/seongnam.jpeg" 
+                alt="Brand 1" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/hyundai.svg" 
+                alt="Brand 2" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/kia.svg" 
+                alt="Brand 3" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/polstar.svg" 
+                alt="Brand 4" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/volvo.svg" 
+                alt="Brand 5" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/tesla.svg" 
+                alt="Brand 6" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+            <div className="text-center flex justify-center items-center">
+              <img 
+                src="/img/audi.svg" 
+                alt="Brand 7" 
+                className="w-12 h-auto md:w-16 lg:w-20"
+              />
+            </div>
+          </div>
+        </div>
       </section>
       <div className="bg-white">
         <Footer />
