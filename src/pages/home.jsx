@@ -318,10 +318,10 @@ export function Home() {
           <Typography
             variant="h3"
             color="blue-gray"
-            className="mb-24 font-bold"
+            className="mb-24 font-bold leading-loose"
           >
-            EON과<br/>
-            함께하는 파트너를 소개합니다.<br/>
+            <span>EON과</span><br/>
+            <span>함께하는 파트너를 소개합니다.</span><br/>
             <small className="mb-8 font-normal">더 나은 전기차 경험을 위해 다양한 사업자와 함께 성장하고 있습니다.</small>
           </Typography>
           
