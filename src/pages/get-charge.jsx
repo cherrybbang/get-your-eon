@@ -82,7 +82,10 @@ export function GetCharge() {
 
   // 현재 위치 가져오기
   useEffect(() => {
+    let watchId;
+    
     if (navigator.geolocation) {
+      // 초기 위치 가져오기
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const lat = position.coords.latitude;
@@ -115,6 +118,32 @@ export function GetCharge() {
           }));
         }
       );
+
+      // 위치 변화 감지
+      watchId = navigator.geolocation.watchPosition(
+        (position) => {
+          const lat = position.coords.latitude;
+          const lng = position.coords.longitude;
+          
+          setCurrentLocation(prevLocation => {
+            // 위치가 실제로 변경되었는지 확인 (약 10미터 이상 변화)
+            if (!prevLocation || 
+                Math.abs(prevLocation.lat - lat) > 0.0001 ||
+                Math.abs(prevLocation.lng - lng) > 0.0001) {
+              return { lat, lng };
+            }
+            return prevLocation;
+          });
+        },
+        (error) => {
+          console.error('위치 추적 오류:', error);
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 60000 // 1분간 캐시된 위치 사용
+        }
+      );
     } else {
       setState((prev) => ({
         ...prev,
@@ -122,6 +151,13 @@ export function GetCharge() {
         isLoading: false,
       }));
     }
+
+    // cleanup function
+    return () => {
+      if (watchId) {
+        navigator.geolocation.clearWatch(watchId);
+      }
+    };
   }, []);
 
   // 지도를 블러오고 현재 위치를 알 때 초기 충전소 데이터 불러오기
