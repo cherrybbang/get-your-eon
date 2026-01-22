@@ -14,6 +14,10 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 - 실시간 API 연동하여 최신 데이터 제공  
 - VIte 기반 빠른 빌드
 
+**상세기능**
+<img width="800" height="700" alt="스크린샷 2025-10-31 130520" src="https://github.com/user-attachments/assets/4f619586-38f0-4536-89ad-3d0bf72898f9" />
+
+
 **개발환경설정**
 
 1. Node.js (권장 LTS) 설치
