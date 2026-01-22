@@ -15,8 +15,11 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 - VIte 기반 빠른 빌드
 
 **상세기능**
-<img width="800" height="700" alt="스크린샷 2025-10-31 130520" src="https://github.com/user-attachments/assets/4f619586-38f0-4536-89ad-3d0bf72898f9" />
 
+- 지역별, 차종별 전기차 보조금 조회
+- 차량 모델별 보조금 금액 비교
+
+<img width="800" height="700" alt="보조금 조회 이미지" src="https://github.com/user-attachments/assets/4f619586-38f0-4536-89ad-3d0bf72898f9" />
 
 **개발환경설정**
 
