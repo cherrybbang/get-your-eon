@@ -21,6 +21,15 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 
 <img width="800" height="700" alt="보조금 조회 이미지" src="https://github.com/user-attachments/assets/4f619586-38f0-4536-89ad-3d0bf72898f9" />
 
+
+
+- 현재 위치 주변의 가까운 전기차 충전소 조회
+- 실시간 충전 현황 정보 제공
+
+<img width="800" height="400" alt="실시간 충전 이미지" src="https://github.com/user-attachments/assets/fa6e09c5-ca21-49c8-8653-7948ad1261bc" />
+
+
+
 **개발환경설정**
 
 1. Node.js (권장 LTS) 설치
