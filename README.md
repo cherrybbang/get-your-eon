@@ -2,8 +2,15 @@
 
 **소개**
 
+성남시 청소년재단에서 진행한 SW 캠프 팀 프로젝트입니다.  
 EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공하는 웹 프로젝트입니다.  
-프론트엔드는 React + TypeScript + Vite로 구성되어 있습니다.
+프론트엔드는 React + JavaScript + Vite로 구성되어 있습니다.
+
+개발 기간 : 2025.08 - 2025.11
+
+프로젝트 담당 : 프론트엔드
+
+:rocket:배포 주소 : https://get-your-eon.vercel.app
 
 **주요기능**
 
@@ -41,7 +48,7 @@ npm run dev
 [ Bundler ] - Vite  
 [ Deploy ] - Vercel  
 
-**폴더구조**
+**디렉토리구조**
 
 ```
 get-your-eon
@@ -71,7 +78,3 @@ get-your-eon
     └── vite.config.js
 
 ```
-
-**배포정보**
-
-:rocket: https://get-your-eon.vercel.app
