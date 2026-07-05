@@ -3,8 +3,7 @@
 ### 프로젝트 소개
 
 성남시 청소년재단에서 진행한 SW 캠프 팀 프로젝트입니다.  
-EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공하는 웹 프로젝트입니다.  
-프론트엔드는 React + JavaScript + Vite로 구성되어 있습니다.
+EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공하는 웹 서비스입니다.
 
 개발 기간 : 2025.08 - 2025.11
 
@@ -21,9 +20,9 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 </thead>
 <tbody>
 <tr>
-<td align="center">이상은<br><a href="https://github.com/euuuuning">@euuuuning</a></td>
-<td align="center">박지유<br><a href="https://github.com/cherrybbang">@cherrybbang</a></td>
-<td align="center">정하람<br><a href="https://github.com/CoderGogh">@CoderGogh</a></td>
+<td align="center">이상은<br>팀 대표 및 PM<br><a href="https://github.com/euuuuning">@euuuuning</a></td>
+<td align="center">박지유<br>프론트엔드<br><a href="https://github.com/cherrybbang">@cherrybbang</a></td>
+<td align="center">정하람<br>백엔드<br><a href="https://github.com/CoderGogh">@CoderGogh</a></td>
 </tr>
 </tbody>
 </table>
