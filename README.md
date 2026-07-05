@@ -82,6 +82,37 @@ npm run dev
 [ Bundler ] - Vite  
 [ Deploy ] - Vercel  
 
+### 아키텍처
+
+```mermaid
+flowchart LR
+    User(["사용자 브라우저"])
+
+    subgraph Vercel["Vercel"]
+        SPA["React SPA (Vite 빌드)"]
+    end
+
+    subgraph Render["Render"]
+        Backend["FastAPI 백엔드 서버"]
+        DB[("DB")]
+    end
+
+    subgraph External["외부 서비스"]
+        Kakao["카카오맵 API"]
+    end
+
+    User -- "접속" --> SPA
+    SPA -- "fetch + X-API-KEY" --> Backend
+    Backend -- "JSON 응답" --> SPA
+    Backend -- "조회" --> DB
+    SPA -- "지도 표시 요청" --> Kakao
+```
+
+- 사용자는 Vercel에 배포된 정적 React SPA에 접속합니다.
+- 화면에서 보조금/충전소 조회 시 `apis.js`가 Render에 배포된 FastAPI 백엔드에 `X-API-KEY` 헤더를 담아 요청하고, 응답 JSON을 컴포넌트 state에 반영해 화면을 렌더링합니다.
+- 백엔드는 DB를 조회해 결과를 응답합니다.
+- 위치 기반 지도 표시는 `react-kakao-maps-sdk`를 통해 카카오맵 API와 별도로 통신합니다.
+
 ### 디렉토리 구조
 
 ```
