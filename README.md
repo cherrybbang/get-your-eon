@@ -1,6 +1,6 @@
 # [전기차 토탈 관리 플랫폼 - EON]
 
-**[프로젝트 소개]**
+### 프로젝트 소개
 
 성남시 청소년재단에서 진행한 SW 캠프 팀 프로젝트입니다.  
 EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공하는 웹 프로젝트입니다.  
@@ -14,9 +14,9 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 <table>
 <thead>
 <tr>
-<th align="center"><a target="_blank" href="https://github.com/github1"><img src="https://github.com/github1.png" width="150" height="150" style="border-radius: 6px"></a></th>
-<th align="center"><a target="_blank" href="https://github.com/github2"><img src="https://github.com/github2.png" width="150" height="150" style="border-radius: 6px"></a></th>
-<th align="center"><a target="_blank" href="https://github.com/github3"><img src="https://github.com/github3.png" width="150" height="150" style="border-radius: 6px"></a></th>
+<th align="center"><a target="_blank" href="https://github.com/euuuuning"><img src="https://github.com/euuuuning.png" width="150" height="150" style="border-radius: 6px"></a></th>
+<th align="center"><a target="_blank" href="https://github.com/cherrybbang"><img src="https://github.com/cherrybbang.png" width="150" height="150" style="border-radius: 6px"></a></th>
+<th align="center"><a target="_blank" href="https://github.com/CoderGogh"><img src="https://github.com/CoderGogh.png" width="150" height="150" style="border-radius: 6px"></a></th>
 </tr>
 </thead>
 <tbody>
@@ -32,7 +32,7 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 
 :rocket:배포 주소 : https://get-your-eon.vercel.app
 
-**[주요 기능]**
+### 주요 기능
 
 - 차량별 보조금 검색 및 비교  
 - 지역별 보조금(국비, 지방비) 정보 필터링  
@@ -41,7 +41,7 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 - 실시간 API 연동하여 최신 데이터 제공  
 - VIte 기반 빠른 빌드
 
-**[상세 기능]**
+### 상세 기능
 
 - 지역별, 차종별 전기차 보조금 조회
 - 차량 모델별 보조금 금액 비교
@@ -56,7 +56,7 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 
 <br/>
 
-**[개발 환경 설정]**
+### 개발 환경 설정
 
 1. Node.js (권장 LTS) 설치
 2. 의존성 설치
@@ -76,14 +76,14 @@ VITE_KAKAO_MAP_KEY=kakao_map_api_key
 npm run dev
 ```
 
-**[기술 스택]**
+### 기술 스택
 
 [ Frontend Framework ] - React  
 [ Language ] - Javascript  
 [ Bundler ] - Vite  
 [ Deploy ] - Vercel  
 
-**[디렉토리 구조]**
+### 디렉토리 구조
 
 ```
 get-your-eon
