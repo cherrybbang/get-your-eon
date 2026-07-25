@@ -14,14 +14,14 @@ EON은 전기차 사용자에게 구매·관리·운행 정보를 통합 제공�
 <thead>
 <tr>
 <th align="center"><a target="_blank" href="https://github.com/euuuuning"><img src="https://github.com/euuuuning.png" width="150" height="150" style="border-radius: 6px"></a></th>
-<th align="center"><a target="_blank" href="https://github.com/cherrybbang"><img src="https://github.com/cherrybbang.png" width="150" height="150" style="border-radius: 6px"></a></th>
+<th align="center"><a target="_blank" href="https://github.com/devjiyu"><img src="https://github.com/devjiyu.png" width="150" height="150" style="border-radius: 6px"></a></th>
 <th align="center"><a target="_blank" href="https://github.com/CoderGogh"><img src="https://github.com/CoderGogh.png" width="150" height="150" style="border-radius: 6px"></a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center">이상은<br>팀 대표 및 PM<br><a href="https://github.com/euuuuning">@euuuuning</a></td>
-<td align="center">박지유<br>프론트엔드<br><a href="https://github.com/cherrybbang">@cherrybbang</a></td>
+<td align="center">박지유<br>프론트엔드<br><a href="https://github.com/devjiyu">@devjiyu</a></td>
 <td align="center">정하람<br>백엔드<br><a href="https://github.com/CoderGogh">@CoderGogh</a></td>
 </tr>
 </tbody>
